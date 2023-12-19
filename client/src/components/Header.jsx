@@ -53,7 +53,7 @@ useEffect(() => {
 
 
   return (
-    <header className="header flex items-center" ref={headerRef}>
+    <header className="pr-64 pl-64  header flex items-center" ref={headerRef}>
       <div className="container">
         <div className="flex items-center justify-between">
           {/* ==========  LOGO ============== */}
