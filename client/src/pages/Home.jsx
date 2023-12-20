@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       {/* ============= Hero Section =========== */}
-      <section className="hero__section pl-64 pr-64 pt-[60px] 2xl:h-[800px]">
+      <section className="hero__section lg:pl-64 lg:pr-64 pt-[60px] 2xl:h-[800px]">
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between ">
             {/* ============= Hero Content =========== */}
@@ -80,7 +80,7 @@ const Home = () => {
       {/* ============= Hero Section End =========== */}
 
       <section>
-        <div className="container">
+        <div className="container lg:pr-64 lg:pl-64">
           <div className="lg:w-[470px] mx-auto">
             <h2 className="heading text-center">
               Providing the best <br /> Medical services
@@ -168,7 +168,7 @@ const Home = () => {
       {/* ============= Services Section =========== */}
 
       <section>
-        <div className="container">
+        <div className="container lg:pr-64 lg:pl-64 ">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our Medical Services</h2>
             <p className="text__para text-center">
@@ -183,7 +183,7 @@ const Home = () => {
       {/*  ============= Feature Section ================ */}
 
       <section>
-        <div className="container pr-64 pl-64">
+        <div className="container lg:pr-64 lg:pl-64">
           <div className="flex items-center justify-between flex-col lg:flex-row">
             {/*  ========= Feature Content  */}
             <div className="xl:w-[670px]">
@@ -244,7 +244,7 @@ const Home = () => {
 
       {/* ============= Our Great Doctors =========== */}
       <section>
-        <div className="container pr-64 pl-64">
+        <div className="container lg:pr-64 lg:pl-64">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our Great Doctors</h2>
             <p className="text__para text-center">
@@ -260,7 +260,7 @@ const Home = () => {
       {/*  ============== Faq Section =============== */}
 
       <section>
-        <div className="container pr-64 pl-64">
+        <div className="container lg:pr-64 lg:pl-64">
           <div className="flex justify-between gap-[50px] lg:gap-0">
             <div className="w-1/2 hidden md:block">
               <img src={faqImage} alt="" />
@@ -277,7 +277,7 @@ const Home = () => {
 
       {/* ============= Testimonial ================= */}
       <section>
-        <div className="container pr-64 pl-64">
+        <div className="container lg:pr-64 lg:pl-64">
         <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">What our patients say</h2>
             <p className="text__para text-center">

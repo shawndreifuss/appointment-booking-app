@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="pl-64 pr-64">
-      <div className="container">
+    <section >
+      <div className="container lg:pr-64 lg:pl-64">
         <div className="flex items-center justify-between gap-[50px] lg:gap-[130px] xl:gap-0 flex-col lg:flex-row">
           {/* ========= About Image ========== */}
           <div className="relative w-3/4 lg:w-1/2 xl:w-[770px] z-10 order-2 lg:order-1">
