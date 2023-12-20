@@ -30,7 +30,7 @@ const toggleAccordian = () => {
       </div>
 
       {isOpen &&   <div className="mt-4">
-        <p className='text-[14px] leading-6 lg:text-[16px] lg:leading-7 font-[400] textColor'>{item.content}</p>
+        <p className='text-[14px] leading-6 lg:text-[16px] lg:leading-7 font-[400] text-textColor'>{item.content}</p>
       </div> }
     </div>
   );
